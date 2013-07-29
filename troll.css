@@ -1,0 +1,31 @@
+b {
+    font-weight: normal;
+}
+
+i {
+    font-style: normal;
+}
+
+/**
+ *
+ * We all agree that we need <br> from time to time, especially in text, and those tags
+ * do have a very important semantic meaning.
+ * However, <br> tags should not be used to style margins and paddings. 
+ */
+
+br + br {
+    display: none;
+}
+
+hr {
+    border: 0;
+}
+
+/**
+ * Believe me, those things still exist! I see dead tags!
+ */
+
+font,
+center {
+   display: none; 
+}
