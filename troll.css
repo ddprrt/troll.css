@@ -1,3 +1,10 @@
+/**
+ *
+ * <b> is not bold anymore
+ * <i> does not mean it's italic
+ *
+ */
+
 b {
     font-weight: normal;
 }
@@ -8,24 +15,71 @@ i {
 
 /**
  *
+ * <small> does not mean it is presented small
+ *
+ */
+
+small {
+    font-size: 20em;
+}
+
+/**
+ *
  * We all agree that we need <br> from time to time, especially in text, and those tags
  * do have a very important semantic meaning.
  * However, <br> tags should not be used to style margins and paddings. 
+ * Or to simulate multiple paragraphs.
  */
 
 br + br {
     display: none;
 }
 
+
 hr {
     border: 0;
 }
 
 /**
- * Believe me, those things still exist! I see dead tags!
+ *
+ * A link that doesn't link anywhere? You wish!
+ *
  */
 
+a[href="#"],
+a[href*="javascript"]{
+    display: none;
+}
+
+/**
+ *
+ * Believe me, those things still exist! I see dead tags!
+ *
+ */
+
+frame,
+frameset,
+noframes,
+acronym,
 font,
+dir,
+big,
+applet,
+basefont,
 center {
    display: none; 
+}
+
+/**
+ *
+ * And dead attributes
+ *
+ */
+
+a[name],
+img[border],
+[hspace],
+[align],
+[background] {
+    display: none;
 }
