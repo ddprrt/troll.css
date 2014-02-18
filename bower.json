@@ -1,0 +1,24 @@
+{
+  "name": "troll.css",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ddprrt/troll.css",
+  "authors": [
+    "Stefan Baumgartner <sbaumg@gmail.com>"
+  ],
+  "description": "Adds some rules which help you doing the right thing in your markup",
+  "main": "troll.css",
+  "keywords": [
+    "utility",
+    "CSS",
+    "Markup",
+    "check"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
