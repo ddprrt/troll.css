@@ -1,0 +1,22 @@
+{
+  "name": "troll.css",
+  "version": "0.1.0",
+  "description": "Adds some rules which help you doing the right thing in your markup",
+  "main": "troll.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddprrt/troll.css.git"
+  },
+  "keywords": [
+    "utility",
+    "CSS",
+    "Markup",
+    "check"
+  ],
+  "author": "Stefan Baumgartner <sbaumg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddprrt/troll.css/issues"
+  },
+  "homepage": "https://github.com/ddprrt/troll.css"
+}
